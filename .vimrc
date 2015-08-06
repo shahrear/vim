@@ -33,8 +33,8 @@ Plugin 'scrooloose/nerdtree'
 
 
 " Experimenting with these
-
-
+Plugin 'oplatek/Conque-Shell'
+Plugin 'ervandew/screen'
 
 "End Vundle
 call vundle#end()
@@ -151,9 +151,11 @@ set sidescroll=1
 " ===============
 
 "Let K be the opposite of J
-map K i<Enter><Esc>
+imap K i<Enter><Esc>
 "\rr => refresh vimrc
-map <leader>rr :source ~/.vimrc<CR>
+imap <leader>rr :source ~/.vimrc<CR>
+imap jk <Esc>
+set pastetoggle=<F5>
 
 
 " Plugin Options
