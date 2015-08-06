@@ -25,6 +25,8 @@ Plugin 'blueshirts/darcula'
 Plugin 'kien/ctrlp.vim'
 " Ack.vim uses ack to search within files
 Plugin 'mileszs/ack.vim'
+"autocompletion youcompleteme
+Plugin 'Valloric/YouCompleteMe'
 
 " ### Use sometimes
 
@@ -171,8 +173,5 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor --ignore .git  --ignore .svn  --i
 map <c-t> :NERDTreeToggle<CR>
 let NERDTreeHijackNetrw=1 "Put Nerdtree into a window
 
-
-
-
-
-
+"YouCompleteMe options
+let g:ycm_min_num_of_chars_for_completion=3
