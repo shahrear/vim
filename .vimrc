@@ -75,7 +75,7 @@ set gcr=a:blinkon0              " Disable cursor blink
 set laststatus=2                " Always show status line
 set splitright                  " Opens vertical split right of current window
 set splitbelow                  " Opens horizontal split below current window
-
+set pastetoggle=<F2>
 
 " Mouse
 " ======
